@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="364.0" prefWidth="442.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="company.Controller">
+    <children>
+        <Label layoutX="128.0" layoutY="14.0" text="Customer Registration">
+            <font>
+                <Font name="Impact" size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="97.0" layoutY="51.0" text="Name:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <TextField fx:id="CustomerName" layoutX="191.0" layoutY="48.0" prefHeight="5.0" prefWidth="168.0" />
+        <Label layoutX="96.0" layoutY="81.0" text="Password: ">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <TextField fx:id="CustomerPassword" layoutX="191.0" layoutY="78.0" prefHeight="8.0" prefWidth="168.0" />
+        <TextField fx:id="CustomerEmail" layoutX="191.0" layoutY="108.0" prefHeight="21.0" prefWidth="168.0" />
+        <TextField fx:id="CustomerCnic" layoutX="191.0" layoutY="139.0" prefHeight="5.0" prefWidth="168.0" />
+        <TextField fx:id="CustomerGender" layoutX="191.0" layoutY="169.0" prefHeight="5.0" prefWidth="168.0" />
+        <TextField fx:id="CustomerAddress" layoutX="191.0" layoutY="199.0" prefHeight="5.0" prefWidth="168.0" />
+        <TextField fx:id="CustomerPhone" layoutX="191.0" layoutY="229.0" prefHeight="5.0" prefWidth="168.0" />
+        <TextField fx:id="Profession" layoutX="191.0" layoutY="259.0" prefHeight="5.0" prefWidth="168.0" />
+        <Label layoutX="97.0" layoutY="111.0" text="Email: ">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="98.0" layoutY="142.0" text="CNIC: ">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="94.0" layoutY="172.0" text="Gender:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="96.0" layoutY="202.0" text="Address:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="97.0" layoutY="232.0" text="Phone No.:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="96.0" layoutY="262.0" text="Profession:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <Button layoutX="169.0" layoutY="443.0" mnemonicParsing="false" onAction="#registerationOfCustomer" prefHeight="17.0" prefWidth="104.0" style="-fx-background-color: #000000;" text="REGISTER" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+      <TextField fx:id="CustomerDob" layoutX="191.0" layoutY="288.0" prefHeight="25.0" prefWidth="168.0" />
+      <TextField fx:id="CustomerBranchId" layoutX="191.0" layoutY="317.0" prefHeight="25.0" prefWidth="168.0" />
+      <TextField fx:id="Balance" layoutX="191.0" layoutY="347.0" prefHeight="25.0" prefWidth="168.0" />
+      <TextField fx:id="AccountStatus" layoutX="191.0" layoutY="377.0" prefHeight="25.0" prefWidth="168.0" />
+      <TextField fx:id="AccountOpeningDate" layoutX="191.0" layoutY="406.0" prefHeight="25.0" prefWidth="168.0" />
+      <Label layoutX="96.0" layoutY="285.0" text="DateOfBirth:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="96.0" layoutY="320.0" text="BranchID:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="96.0" layoutY="350.0" text="Balance:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="96.0" layoutY="380.0" text="Status:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="403.0" text="Account OpeningDate:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="97.0" layoutY="299.0" text="(YYYY-MM-DD)" />
+      <Label layoutX="67.0" layoutY="417.0" text="(YYYY-MM-DD)" />
+      <Label fx:id="CustomerSubmission" layoutX="345.0" layoutY="490.0" prefHeight="17.0" prefWidth="82.0" />
+    </children>
+</AnchorPane>
